@@ -1,0 +1,30 @@
+.spoljni {
+    width: 100%;
+  display: flex;
+
+/*redoslijed*/
+  /*flex-direction: column-reverse; */
+  /*flex-direction: column;*/
+  flex-direction: row;
+  /*flex-direction: row-reverse;*/
+
+/*ponasanje unutrasnjih*/
+ /* flex-wrap: wrap;*/ /*u ovom slucaju izbacite width u procentima iz unutrasnjih elementa*/
+  flex-wrap: nowrap;
+  
+/*justify*/
+  /*justify-content: center;
+justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: space-around;*/
+  justify-content: space-between;
+
+  background-color: lightblue;
+}
+
+.spoljni > .unutrasnji {
+  background-color: lightcyan;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<script src="funkcije.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="podaci()">
+
+<button onclick="podaci()">Primi</button>
+
+
+<div class="spoljni" id="spoljni">
+    <div class="unutrasnji">
+      <h4>1. Unutrasnji</h4>
+    </div>
+    <div class="unutrasnji">
+      <h4>2. Unutrasnji</h4>
+    </div> 
+    <div class="unutrasnji">
+      <h4>3. Unutrasnji</h4>
+    </div>
+    <div class="unutrasnji">
+      <h4>4. Unutrasnji</h4>
+    </div>
+</div>
+
+  <div class="narudzba">
+      <label for="ime">Ime</label>
+      <input type="text" name="ime" id="ime">
+      <br>
+      <label for="prezime">Prezime</label>
+      <input type="text" name="prezime" id="prezime">
+      <br>
+      <label for="adresa">Adresa</label>
+      <input type="text" name="adresa" id="adresa">
+      <br>
+      <label for="proizID">ID proizvoda</label>
+      <input type="text" name="proizID" id="proizID">
+      <br>
+      <label for="komada">Komada</label>
+      <input type="number" name="komada" id="komada">
+      <br>
+      <label for="email">kontakt e-mail</label>
+      <input type="text" name="email" id="email">
+      <br>
+      <button onclick="posaljiNarudzbu()">Naruci</button>
+      <button onclick="budgetSave()">Budget Save</button>
+  </div>
+
+</body>
+
+</html>
